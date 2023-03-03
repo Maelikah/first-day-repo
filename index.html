@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"
+    <title>My Landing Page</title>  
+</head>
+
+<body>
+    <header>
+        <!--Nav is used when you want to group links-->
+        <nav class="text-right">
+            <ul>
+                <li> <a href="https://github.com/Maelikah">Github</a></li>
+                <li> <a href="https://www.linkedin.com/in/eva-longoria">Linkedin</a></li>
+                <li> <a href="mailto:user@domain.com">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!--Main is unique to the document, it should not contain any content that is repeated. There can only be one main-->
+    <main>
+        <h1 class="text-center">Labs' Haven Website</h1>
+        <!--Figure is used to mark up a photo in a document and Figcaption is used to define a caption of that photo-->
+        <figure>
+            <img src="./assets/images/labs.png" alt="Cute Puppies">
+            <figcaption class="text-center"><b><i>A house is never lonely where a loving labrador awaits</b></i></figcaption>
+        </figure>
+        <section>
+            <h2 class="text-center">Get in Touch</h2>
+            <!--Form is used to create a HTML for for user input-->
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                        <label class="text-right" for="email">E-mail:</label>
+                        <input type="text" id="email" name="user-email">
+                    </li>
+                </ul>
+                <br>
+                <div class="text-center">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>    
+
+    <footer>
+        <h3 class="text-center">2023 Bootcamp MiniProject</h3>
+
+    </footer>
+
+</body>
+
+</html>
